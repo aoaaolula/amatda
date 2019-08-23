@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>HTML WEB SITE</title>
+   
   </head>
   <body>
     <h1><a href="web.html">WEB</a></h1>
