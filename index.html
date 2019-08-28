@@ -7,9 +7,55 @@
 	    <meta name="author" content="북냥있포">
     	<meta name="classification" content="북냥있포">
     <title>HTML WEB SITE</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <style>
+header{
+  border : 2px solid black;
+  height : 150px;
+  margin-top : 30px;
+}
+
+
+.mainBox{
+  border : 2px solid gray;
+  height : 600px;
+  width : 1500px;
+  margin : 0 auto;
+  margin-bottom : 30px;
+}
+
+.etcBox .oneRow {
+  border : none;
+  height : 600px;
+  width : 1500px;
+  margin : 0 auto;
+  position : relative;
+
+}
+
+.etcBox .oneRow div {
+  border : 1px solid black;
+  height : 600px;
+  width : 730px;
+}
+.etcBox .oneRow .oneRowfirst {
+  float :left;
+}
+.etcBox .oneRow .oneRowsecond {
+  float :right;
+}
+
+div {
+  text-align : center;
+  font-size : 40px;
+}
+
+</style>
+	  
+	  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146398159-1"></script>
-<script>
+
+	  
+	  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -18,14 +64,42 @@
 </script>
 
   </head>
+	
+	<header>
+
+    <div class="HeaderCont">
+      <a href="index.html">머릿글</a>
+    </div>
+    </header>
+    
+    <article class="mainCont">
+      <div class="mainBox">
+        <a href="html.html">메인컨텐츠(HTML)</li>
+      </div>
+
+        <div class="etcBox">
+
+
+            <div class="oneRow">
+
+                <div class="oneRowfirst">
+                  <a href="css.html">부수컨텐츠(CSS)</li>
+                </div>
+                <div class="oneRowsecond">
+			<a href="javascript.html">부수컨텐츠(Javascript)</a> 
+                </div>
+            </div>
+
+          </div>
+
+
+    </article>
   <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <ol>
-      <li><a href="html.html">html</li></a>
-      <li><a href="css.html">css</li></a>
-      <li><a href="javascript.html">javascript</li></a>
-    </ol>
+
     <h2>메인페이지</h2>
+
+
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -39,5 +113,8 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+
+
+
   </body>
 </html>
