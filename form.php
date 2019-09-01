@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php
-    file_put_contents('Menu/'.$_GET['title'], $_GET['description']);
+    file_put_contents($_GET['title'], $_GET['description']);
       echo $_GET['title'];
       echo "<br>";
       echo $_GET['description'];
