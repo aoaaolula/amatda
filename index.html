@@ -71,7 +71,7 @@ div {
 	<header>
 
     <div class="HeaderCont">
-      <a href="index.html">머릿글(v1.6)</a>
+      <a href="index.html">머릿글(v1.7)</a>
 
     </div>
     </header>
@@ -102,15 +102,27 @@ div {
     <input type="button" name="d1ay" value='day' onclick="
     document.querySelector('body').style.backgroundColor='white';
 							  document.querySelector('body').style.color='black';
-    "> : 바탕화면을 흰색 / 글자를 검정으로
+    "> : 바탕화면을 흰색 / 글자를 검정으로 <br><br>
+			    <input type="button" name="day" value='원버튼:깜깜하게' onclick="
+    if (document.querySelector('body').dataset.mode === 'night') {
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black';
+      document.querySelector('body').dataset.mode = 'day';
+      this.value = 'night';
+
+    } else
+    {
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white';
+      document.querySelector('body').dataset.mode = 'night';
+      this.value = '원버튼:하얗게';
+    }">
                 </div>
 		   
             </div>
 
           </div>
-<?php
-	    echo ("hi");
-	    ?>
+
 
     </article>
 
